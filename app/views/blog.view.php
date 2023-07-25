@@ -1,1 +1,0 @@
-<h2>Blog View File</h2>

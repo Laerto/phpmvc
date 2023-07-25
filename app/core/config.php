@@ -1,14 +1,14 @@
 <?php
-
+ defined('ROOTPATH') OR exit('Access Denied!');
 
 
 if($_SERVER['SERVER_NAME'] == 'localhost')
 {
 
     /** Database Config */
-    define('DBNAME', 'mvc');
+    define('DBNAME', 'test');
     define('DBHOST', 'localhost');
-    define('DBUSER', 'mvc');
+    define('DBUSER', 'test');
     define('DBPASS', '@test');
     define('DBDRIVER', 'mysql');
 
@@ -16,9 +16,9 @@ if($_SERVER['SERVER_NAME'] == 'localhost')
 }else {
 
     /** Database Config */
-    define('DBNAME', 'mvc');
+    define('DBNAME', 'test');
     define('DBHOST', 'localhost');
-    define('DBUSER', 'mvc');
+    define('DBUSER', 'test');
     define('DBPASS', '@test');
     define('DBDRIVER', 'mysql');
 
